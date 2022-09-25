@@ -1,5 +1,5 @@
 	
-	First steps to take before marking...
+	Steps to run the system...
 	
 		1.Run the CO226ProjectGroup14PhysicalModel.sql file to create the complete database.
 		2.Run the CO226ProjectGroup14PopulatedModel.sql file to populate the complete database.
