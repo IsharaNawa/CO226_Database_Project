@@ -1,2 +1,2 @@
-# CO326_Database_Project
+# CO226_Database_Project
 Full Stack Database Project
