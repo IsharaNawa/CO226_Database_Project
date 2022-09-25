@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<title>Arogya Health Care</title>
+		<link href="style_patient_registration.css" rel="stylesheet" type="text/css">
+   </head>
+  
+	<body >
+	<header>
+		<div class="row">
+        <div class="logo">
+        <img src="logo.png"
+        </div>
+		<h2>Arogya Health Care</h2>
+		<b>Enter your information to get registered in our patient list.</b><br><br>
+		<b>Warning!<b><br>
+		<b>If you have already registered,Please do not register again!</b><br><br>
+		<form action='patient_registration.php' method='GET'>
+			<table>
+				<tr>
+					<th>National ID Number:</th>
+					<td>
+						<input type="text" name="NID">
+					</td>
+				</tr>
+   
+				<tr>
+					<th>First Name:</th>
+					<td>
+						<input type="text" name="FName">
+						
+					</td>
+				</tr>
+   
+				<tr>
+					<th>Last Name:</th>
+					<td>
+						<input type="text" name="LName">
+					</td>
+				</tr>
+   
+				<tr>
+					<th>Select Gender:</th>
+					<td>
+						<input type="radio" name="Gender" value="Female" checked><label for="Female">Female</label>
+						<input type="radio" name="Gender" value="Male"><label for="Male">Male</label>
+					</td>
+				</tr>
+   
+				<tr>
+					<th>Date Of Birth:</th>
+					<td>
+						<input type="date" name="DOB">
+					</td>
+				</tr>
+				
+				<tr>
+					<th>Address:</th>
+					<td>
+						<table>
+							<tr>
+								<th>No:</th>
+								<td><input type="text" name="No"></td>
+							</tr>
+							
+							<tr>
+								<th>Street1:</th>
+								<td><input type="text" name="Street1"></td>
+							</tr>
+        
+							<tr>
+								<th>Street2:</th>
+								<td><input type="text" name="Street2"></td>
+							</tr>
+        						      
+							<tr>
+								<th>City:</th>
+								<td><input type="text" name="City"></td>
+							</tr>
+						</table>       
+					</td>
+				</tr>
+				
+				<tr>
+					<th>Phone Number:</th>
+					<td>
+						<input type="text" name="PNO">
+					</td>
+				</tr>
+				
+				<tr>
+					<th>Civil Status:</th>
+					<td>
+						<input type="radio" name="Civil" value="Married"><label for="Female">Married</label>
+						<input type="radio" name="Civil" value="Unmarried" checked><label for="Male">Unmarried</label>
+					</td>
+				</tr>
+				
+				<tr>
+					<th>Blood Group:</th>
+					<td>
+						<select name="BGroup" class="custom-select">
+							<option value="A+">A+</option>
+							<option value="A-">A-</option>
+							<option value="B+">B+</option>
+							<option value="B-">B-</option>
+							<option value="AB+">AB+</option>
+							<option value="AB-">AB-</option>
+							<option value="O+">O+</option>
+							<option value="O-">O-</option>
+							
+					</td>
+				</tr>
+				
+				<tr>
+					<th>Allergies:</th>
+					<td>
+						<select name="Allergy">
+							<option value="FoodAllergy">Food Allergy</option>
+							<option value="DustAllergy">Dust Allergy</option>
+							<option value="SkinAllergy">Skin Allergy</option>
+							<option value="DustAllergy">Dust Allergy</option>
+							<option value="LatexAllergy">Latex Allergy</option>
+							<option value="MoldAllergy">Mold Allergy</option>
+							<option value="Other">Other</option>
+							
+					</td>
+				</tr>
+   
+				<tr>
+					
+					<td>
+						<br><input type="submit" value="Register Now!" class="registerbtn">       
+					</td>
+				</tr>
+			</table>
+		</form>
+		</header>
+	</body>
+</html>

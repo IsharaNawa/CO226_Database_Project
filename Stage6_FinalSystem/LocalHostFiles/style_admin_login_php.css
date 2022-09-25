@@ -1,0 +1,51 @@
+
+body
+{
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(esB3aC.jpg);
+    height: 200vh;
+    background-size: cover;
+    background-position: center;
+	text-align: center;
+	color: white;
+    text-transform: uppercase;
+	font-size: 15px;
+}
+
+.registerbtn
+{
+	border: 1px solid white;
+    padding: 10px 30px;
+    color: white;
+    text-decoration: none;
+    margin-right: 5px;
+    font-size: 13px;
+    text-transform: uppercase;
+	background-color: darkorange;
+	margin-top: 50px;
+}
+
+.registerbtn:hover
+{
+	background-color: darkred;
+    transition: all 0.5s ease-in;
+	
+}
+
+input[type=text] 
+{
+  width: 300px;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  margin-top: 50px;
+}
+
+h4
+{
+	 margin-top: 50px;
+}
+
+table 
+{
+    margin: 0 auto;
+}

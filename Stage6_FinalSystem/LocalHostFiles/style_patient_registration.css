@@ -1,0 +1,86 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+body
+{
+    font-family: monospace;
+}
+
+header
+{
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(esB3aC.jpg);
+    height: 160vh;
+    background-size: cover;
+    background-position: center;
+	text-align: center;
+	color: white;
+    text-transform: uppercase;
+	font-size: 15px;
+}
+
+h2
+{
+    color: white;
+    text-transform: uppercase;
+    font-size: 70px;
+    text-align: center;
+    
+}
+
+table 
+{
+    margin: 0 auto;
+}
+
+.registerbtn{
+	
+	border: 1px solid white;
+    padding: 10px 30px;
+    color: white;
+    text-decoration: none;
+    margin-right: 5px;
+    font-size: 13px;
+    text-transform: uppercase;
+	background-color: darkorange;
+	
+	
+}
+
+.registerbtn:hover
+{
+	background-color: darkred;
+    transition: all 0.5s ease-in;
+	
+	
+}
+
+input[type=text] 
+{
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+
+
+
+input[type=date] 
+{
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+
+
+h3
+{
+	text-align: center;
+	margin-top: 275px;
+}
+
+
+

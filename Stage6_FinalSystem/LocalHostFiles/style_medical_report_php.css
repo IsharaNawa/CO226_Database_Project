@@ -1,0 +1,38 @@
+h3
+{
+	text-align: center;
+	margin-top: 275px;
+}
+
+body
+{
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(esB3aC.jpg);
+    height: 80vh;
+    background-size: cover;
+    background-position: center;
+	text-align: center;
+	color: white;
+    text-transform: uppercase;
+	font-size: 15px;
+}
+
+.registerbtn{
+	
+	border: 1px solid white;
+    padding: 10px 30px;
+    color: white;
+    text-decoration: none;
+    margin-right: 5px;
+    font-size: 13px;
+    text-transform: uppercase;
+	background-color: darkorange;
+	
+	
+}
+
+.registerbtn:hover
+{
+	background-color: darkred;
+    transition: all 0.5s ease-in;
+	
+}
